@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mrinal Singha</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/4084eb6fd0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            
+            <nav>
+                <h1 class="logo"><span>Mrinal</span>Singha.</h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="headerText">
+                <p><span>React</span>/Web Developer</p>
+                <h1>Hi, I'm<span>Mrinal</span>Singha<br>From India</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- About  -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/coverphoto.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta sit maiores illum, ipsa dolore nobis autem necessitatibus perspiciatis corrupti repudiandae velit sed, accusantium delectus. Voluptatem dolorem beatae labore quo repellat!</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')" >Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>React</span><br>Designing web/App interfaces</li>
+                            <li><span>Web Develpment</span><br>web app Development</li>
+                            <li><span>Javascript</span><br></li>
+                            <li><span>Html</span><br></li>
+                            <li><span>Css</span><br></li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Mtube</span><br>A video watching app created using create react app</li>
+                            <li><span>GymExercise</span><br>An exercise searching and displaying app</li>
+                            <li><span>RestrauntLandingPage</span><br>A modern ui/ux website</li>
+                            <li><span>Netflixclone</span><br>A user interface web app </li>
+                            
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>ZTM(2023)</span><br>A complete Web Development Corse 2023</li>
+                            <li><span>Btech(2020 - 2024)</span><br>Electrical Engineering</li>
+                            <li><span>Class 12</span><br>Holy Child English Academy Malda </li>
+                           
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--  Services -->
+
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos odit ratione veritatis, aliquam, odio itaque minima culpa quidem doloremque eaque, illo pariatur vitae. Non reprehenderit labore, deleniti excepturi autem nihil.</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>FrontEnd  Web Development</h2>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos odit ratione veritatis, aliquam, odio itaque minima culpa quidem doloremque eaque, illo pariatur vitae. Non reprehenderit labore, deleniti excepturi autem nihil.</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3"></i>
+                    <i class="fa-brands fa-js"></i>
+                    <h2>Html css Javascript</h2>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos odit ratione veritatis, aliquam, odio itaque minima culpa quidem doloremque eaque, illo pariatur vitae. Non reprehenderit labore, deleniti excepturi autem nihil.</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-- -------------Portfolio--------------------  -->
+
+
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/1.jpg">
+                    <div class="layer">
+                        <h3>Mtube</h3>
+                        <p>This app helps you to watch video</p>
+                        <a href="https://main--remarkable-choux-7fefb8.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/2.jpg">
+                    <div class="layer">
+                        <h3>Landing Page</h3>
+                        <p>This app is a Landing Page for a Restraunt </p>
+                        <a href="https://64b768cd68eede43a7ccdbfa--voluble-sopapillas-b0df76.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/3.jpg">
+                    <div class="layer">
+                        <h3>NetflixClone</h3>
+                        <p>This app helps you to see trending Tv series</p>
+                        <a href="https://mrinalnetflixclone.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#" class="btn">See More</a>
+
+        </div>
+    </div>
+    <!-- --------------Contact------------- -->
+
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>mrinalsingha17@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>8337839476</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/ig_mrinalsingha/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/mrinal-singha-754b57249/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/Mrinal-xx-Singha"><i class="fa-brands fa-github"></i></a>
+                        <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                    </div>
+
+                    <a href="images/MrinalSingha_Resume.pdf" download class='btn btn2'>Download CV</a>
+                </div>
+
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Made With Love <i class="fa-solid fa-heart"></i> By MrinalSingha </p>
+        </div>
+    </div>
+
+
+    <script src="index.js"></script>
+
+</body>
+</html>
