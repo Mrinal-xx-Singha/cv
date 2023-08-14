@@ -7,7 +7,7 @@ This is My single page cv Website.
 
 
 ```Git
-npm install
+git clone
 ```
 
 ## Tech Stack
