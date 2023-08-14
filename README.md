@@ -12,11 +12,11 @@ npm install
 
 ## Tech Stack
 
-```Html``` -
+- ```Html``` -
 ***for structuring***
-```Css``` -
+- ```Css``` -
 ***for styling***
-```Javascript``` -
+- ```Javascript``` -
 ***for functionality***
 
 ## Contributing
