@@ -3,6 +3,7 @@
 This is My single page cv Website.
 
 ## Deployed
+View The Live Website
 [*Live*](https://vermillion-lebkuchen-ac8991.netlify.app/)
 
 
@@ -18,6 +19,8 @@ git clone
 ***for styling***
 - ```Javascript``` -
 ***for functionality***
+
+
 
 ## Contributing
 
